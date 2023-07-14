@@ -5,8 +5,12 @@
  * main - Print the last digit of the number
  * Return: Always 0 (True)
  */
+
 int main(void)
+
+
 {
+
 	int n, x;
 
 	srand(time(0));
@@ -20,4 +24,5 @@ int main(void)
 	else
 		printf("last digit of %d is %d and is 0\n", n, x);
 	return (0);
+
 }
