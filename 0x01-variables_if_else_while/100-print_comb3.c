@@ -18,8 +18,10 @@ int main(void)
 			putchar(number2 % 10 + '0');
 
 			if (number1 == 8 && number2 == 9)
-				putchar(',');
-				putchar(' ');
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	{
 	putchar('\n');
