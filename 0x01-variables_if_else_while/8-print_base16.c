@@ -13,9 +13,9 @@ int main(void)
 
 	int number;
 
-	for (number = 0; number <= 16; ++number)
+	for (number = 0; number <= 9; ++number)
 	{
-		putchar((number) + '0');
+		putchar(number + '0');
 	}
 	for (alphabet = 'a'; alphabet <= 'f'; ++alphabet)
 	{
