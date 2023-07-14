@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Print double digits
+ * main - Prints all possible two digits
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
 	int number1, number2;
 
@@ -23,7 +22,9 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	{
+	}
+
 	putchar('\n');
+
 	return (0);
 }
